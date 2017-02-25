@@ -1,0 +1,38 @@
+{
+  "name": "hubx-zendesk",
+  "version": "0.0.1",
+  "description": "HubX Zendesk Driver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "StartX Ventures",
+  "license": "ISC",
+  "dependencies": {
+    "@startx/hubx-core": "^0.2.3",
+    "@startx/probot-memory": "^0.8.6",
+    "@types/express": "^4.0.34",
+    "@types/node": "^6.0.55",
+    "@types/should": "^8.1.30",
+    "body-parser": "^1.15.2",
+    "config": "^1.24.0",
+    "connect": "^3.5.0",
+    "cookie-parser": "^1.4.3",
+    "es6-promise": "^4.0.5",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "letsencrypt-express": "^2.0.5",
+    "querystring": "^0.2.0",
+    "request": "^2.79.0",
+    "require": "^2.4.20",
+    "ssl-root-cas": "^1.2.3",
+    "superagent": "^3.3.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "prompt": "^1.0.0",
+    "should": "^11.1.1"
+  }
+}

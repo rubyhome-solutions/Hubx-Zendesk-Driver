@@ -1,0 +1,24 @@
+{
+	"Core": {
+		"accountType": "ZENDESK",
+		"nerveCenterUrl": "https://probot-staging-nervecenter.appspot-preview.com/process"
+	},
+	"CloudElements": {
+		"elementKey": "zendesk",
+		"apiBaseURL": "https://api.cloud-elements.com/elements/api-v2",
+		"GetOAuthURLpath": "/elements/%s/oauth/url",
+		// ran - "organizationSecret": "11cb169e154b59a8971cd394e4e0ea6b", // FFU process.env.CE_ORGANIZATION
+		"organizationSecret": "b63edbeee503bd28ad71942a45682c1c", // FFU process.env.CE_ORGANIZATION		
+		// ran - "userSecret": "S5XAP18QvLx6XY6NvBHS4hCksevaJitei9shnneWnoM=", // FFU process.env.CE_USER
+		"userSecret": "1YGQlBvYjsJjxx+dXW158FqfddAMBoQW+lIWLldoPFI=", // FFU process.env.CE_USER		
+		"defaultPageSize": 20,
+		"webhooksUrl": "https://secure.taosdc.com/webhooks",
+		"webhooksSignatureKey": "ThisIsTheSignatureKeyForHashingThePayload"
+	},
+	"Zendesk": {
+		"apiKey": "hubx-zendesk", //Zendesk Unique identifier
+		//"apiSecret": "a17b66039fa2e5581f6173fa9a568fc3fc9d321a0ca0f3c1c3d29fea2c884db4",
+		"apiSecret": "a9877090fd46dcd31574a9345b974c2882533462b1583da29efe6529d50d8446",
+		"callbackUrl": "https://secure.taosdc.com/oauth"
+	}	
+}
